@@ -20,7 +20,9 @@ Depending on whether customized effects are required or not, we classify visual 
 
 We further collect datasets containing both base videos and effect videos and construct samples for each of the two paradigms based on these two types of videos.
 
-We provide the dataset VFX-307 in [Baidu Cloud](https://pan.baidu.com/s/16ssAE_GlhZN4hGmvblVWew?pwd=9876).
+<!-- We provide the dataset VFX-307 in [Baidu Cloud](https://pan.baidu.com/s/16ssAE_GlhZN4hGmvblVWew?pwd=9876).-->
+
+
 
 VFX-307 dataset directory structure:
 
@@ -57,9 +59,9 @@ VFX-307 dataset directory structure:
                 ├── …….mp4
 ```
 
-## ✏Our Pipeline
+<!-- ## ✏Our Pipeline -->
 
-<div align=center><img src="gif/3method.png/" style="width:100%"></div>
+<!-- <div align=center><img src="gif/3method.png/" style="width:100%"></div> -->
 
 ## 🔆Ours Results
 
