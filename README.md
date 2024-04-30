@@ -10,9 +10,50 @@ Visual effects synthesis is crucial in the film and television industry, which a
 
 <div align=center><img src="gif/1task.png/" style="width:100%"></div>
 
+Depending on whether customized effects are required or not, we classify visual effects compositing into two paradigms, as shown above.
+
 ## 📁Dataset Construction
 
 <div align=center><img src="gif/2dataset.png/" style="width:100%"></div>
+
+We further collect datasets containing both base videos and effect videos and construct samples for each of the two paradigms based on these two types of videos.
+
+We provide the dataset VFX-307 in [Baidu Cloud](https://pan.baidu.com/s/16ssAE_GlhZN4hGmvblVWew?pwd=9876).
+
+VFX-307 dataset directory structure:
+
+```bash
+├── base_video: 
+     ├── SoilHill.mp4
+     ├── ManFight.mp4
+     ├── ……
+├── effect_video: 
+     ├── scene:
+          ├── snowcenter.mp4
+          ├── …….mp4
+     ├── object:
+          ├── rockstorm.mp4
+          ├── …….mp4
+     ├── magic:
+          ├── teleportation:
+                ├── fireworkcircle.mp4
+                ├── …….mp4
+          ├── defence:
+                ├── runsheild.mp4
+                ├── …….mp4
+          ├── ……
+                ├── …….mp4
+     ├── enviroment:
+          ├── weather:
+                ├── …….mp4
+          ├── …… :
+                ├── …….mp4
+     ├── element:
+          ├── smoke:
+                ├── …….mp4
+          ├── …… :  
+                ├── …….mp4
+```
 
 ## ✏Our Pipeline
 
