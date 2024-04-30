@@ -1,10 +1,12 @@
-# MagicVFX
+# MagicVFX: Visual Effects Synthesis in Just Minutes
 This repository contains a brief introduction to the paper "MagicVFX: Visual Effects Synthesis in Just Minutes", and case presentations.
 
 
 ## 😁Abstract
 
-Visual effects synthesis is crucial in the film and television industry, which aims at enhancing raw footage with virtual elements for greater expressiveness. As the demand for detailed and realistic effects escalates in modern production, professionals are compelled to allocate substantial time and resources to this endeavor. Thus, there is an urgent need to explore more convenient and less resource-intensive methods, such as incorporating the burgeoning Artificial Intelligence Generated Content (AIGC) technology. However, research into this potential integration has yet to be conducted. As the first work to establish a connection between visual effects synthesis and AIGC technology, we start by carefully setting up two paradigms according to the need for pre-produced effects or not: synthesis with reference effects and synthesis without reference effects. Following this, we compile a dataset by processing a collection of effects videos and scene videos, which contains a wide variety of effect categories and scenarios, adequately covering the common effects seen in films and television industry Furthermore, we explore the capabilities of a pre-trained text-to-video model to synthesize visual effects within these two paradigms. The experimental results demonstrate that the pipeline we established can effectively produce impressive visual effects synthesis outcomes, thereby evidencing the significant potential of existing AIGC technology for application in visual effects synthesis tasks.
+Visual effects synthesis is crucial in the film and television industry, which aims at enhancing raw footage with virtual elements for greater expressiveness. As the demand for detailed and realistic effects escalates in modern production, professionals are compelled to allocate substantial time and resources to this endeavor. Thus, there is an urgent need to explore more convenient and less resource-intensive methods, such as incorporating the burgeoning Artificial Intelligence Generated Content (AIGC) technology. However, research into this potential integration has yet to be conducted. 
+
+In this light, we are the first work to establish a link between visual effects synthesis and AIGC technologies.
 
 ## ❔Problem Formulation
 
